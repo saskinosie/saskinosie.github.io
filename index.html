@@ -21,13 +21,15 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Scott Askinosie</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_photo.png" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#speaking">speaking</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#opensource">open source</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">interests</a></li>
@@ -43,11 +45,13 @@
                         Scott
                         <span class="text-primary">Askinosie</span>
                     </h1>
+                    <div class="subheading mb-3">
+                        AI Engineer & Open Source Contributor
+                    </div>
                     <div class="subheading mb-5">
-                         3501 Winfield Dr, Autin TX 78704 · (417) 414-5200 ·
                         <a href="mailto:name@email.com">scott@askinosie.com</a>
                     </div>
-                    <p class="lead mb-5"> Highly conscientious inquisitive data scientist and former science educator and data analyst that strives to apply my background to solve complex technical problems. I excel at translating complex data into easy to understand data points and action items for stakeholders.  I am looking for an opportunity to contribute and grow in my data science skills, feel challenged in my career and learn something new every day.</p>
+                    <p class="lead mb-5">AI engineer and open source contributor specializing in production RAG systems, agentic frameworks, and vector databases. Active contributor to Weaviate open-source project with expertise building and documenting LLM applications from retrieval pipelines to agent orchestration. Former educator with proven ability to translate complex AI concepts into clear documentation, workshops, and production-ready code. Deep Python expertise (Pydantic, FastAPI, modern tooling) with MLOps experience shipping examples and helping developers achieve first successful inference through production deployment.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/scott-askinosie/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/saskinosie"><i class="fab fa-github"></i></a>
@@ -60,31 +64,43 @@
                 <div class="resume-section-content">
                     
                     <h2 class="mb-5">skills</h2>
-                    <div class="subheading mb-3">Artificial Intellegence</div>
-                    <ul class="list-inline dev-icons">                        
+                    <div class="subheading mb-3">AI & Vector Database Systems</div>
+                    <ul class="list-inline dev-icons">
                     </ul>
-                   
+
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            OpenAI GPT SDK, Anthropic Claude SDK, Google Gemini SDK, Meta Llama SDK
+                            Python Expertise: Pydantic, FastAPI, modern tooling (uv, ruff, mypy), async programming
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Open AI, Anthropic, Google, Meta, Flask and Streamlit API Development and Integration 
+                            Vector Databases: Weaviate, semantic search, hybrid search, multi-tenant architectures, quantization, RBAC
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Large Language Models (LLMs) and Multimodal Models
+                            RAG Systems: LlamaIndex, LangChain, retrieval-augmented generation pipelines, document processing
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agent, Assistant, Chatbot and Conversational AI Development
+                            AI Agent Development: Pydantic AI, CrewAI, autonomous agents, tool-calling frameworks, evaluation benchmarks
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Prompt Engineering and Optimization
-                        </li>    
+                            LLM Integration: OpenAI GPT SDK, Anthropic Claude SDK, Google Gemini SDK, Meta Llama SDK, Hugging Face
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Local LLMs: Ollama, vLLM, OpenAI SDK compatibility for on-prem deployments
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Model Context Protocol (MCP): Building custom MCP servers and Claude integrations
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            NLP & Machine Learning: Neural Networks, Time Series Analysis, Transformer-based models
+                        </li>
                     </ul>
                     <br>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
@@ -97,22 +113,24 @@
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Programming Languages: Python (Pandas, Flask, Streamlit, TensorFlow), SQL.
+                            Data & Analytics: Pandas, Numpy, Scikit-learn, SQL, PySpark, Streamlit
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Machine Learning Tools: TensorFlow, Scikit-Learn, NLP libraries. 
-                        </li>
-                        <li>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cloud Platforms: Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP)
+                            Machine Learning: TensorFlow, Scikit-Learn, Neural Networks, NLP libraries
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Development and Collaboration: Visual Studio Code, BigQuery, Google Colab, Jupyter Notebook, GitHub
-                        </li>    
+                            Cloud Platforms: AWS, Microsoft Azure (Prompt Flow, Cosmos DB), Google Cloud Platform (GCP)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Development Tools: Git/GitHub, Docker, JupyterLab, VS Code, Google Colab, BigQuery
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Containerization & Deployment: Docker, microservices architecture, async services
+                        </li>
                     </ul>
                     <br>
                     <div class="subheading mb-3">Statistical Methods, Machine Learning and Data Visualization</div>
@@ -143,92 +161,128 @@
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5">portfolio</h2>
+
+                    <!-- Project 1: Building AI Agents -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Google Cloud Gemini Experimental Reasoning AI App</h3>
+                            <h3 class="mb-0">Building AI Agents for Vector Database Search</h3>
                             <br>
-                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/gemini_app.png" width="250/">
-                            <div class="subheading mb-3">User friendly app for non-technical access to Google Cloud's newest AI models</div>
-                            <p>The Gemini Experimental Reasoning App is a user-friendly interface that leverages Google's latest experimental AI reasoning models, allowing users to easily configure and interact with cutting-edge technology. Key features include: API Configuration, Model Selection, Temperature Adjustement, System Prompt Customization, Chat Management Tools.</p>
+                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/building_ai_agents_vector_db.png" width="300">
+                            <div class="subheading mb-3">Build production-ready AI agents with Pydantic AI and Weaviate</div>
+                            <p>Workshop presented at Data Science Dojo Agents Conference (2025). Complete tutorial on building type-safe agentic systems with query optimization, dynamic filtering, and semantic search. Demonstrates how to create production-ready agents that leverage vector databases for intelligent information retrieval. This hands-on workshop covers agent architecture, Pydantic AI framework integration, and best practices for building reliable AI systems.</p>
+                            <p><strong>Technologies:</strong> Pydantic AI, Weaviate, OpenAI, Python, Vector Search</p>
                             <br>
-                            <a href="https://gemini-experimental-app-featurerich.streamlit.app/">App Here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/gemini-experimental-app">Code Here</a>
+                            <a href="https://github.com/saskinosie/Building-AI-Agents-for-Vector-Database-Search">Workshop Materials & Code</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2025</span></div>
                     </div>
+
+                    <!-- Project 2: CalibrateAI RAG -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">End-to-End RAG with LlamaIndex</h3>
+                            <br>
+                            <img style="float: left; margin: 0px 0px 10px 10px;" src="assets/img/end_to_end_rag_llamaindex.png" width="300">
+                            <div class="subheading mb-3">Production RAG pipeline for domain-specific literature</div>
+                            <p>Presented at CalibrateAI Conference (2025). Demonstrates hierarchical document parsing with LlamaIndex and vector search with Weaviate for space medicine research. This project showcases a complete RAG (Retrieval-Augmented Generation) system that ingests scientific literature, chunks documents intelligently, creates embeddings, and enables natural language queries over specialized domain knowledge. Perfect example of production-grade RAG architecture.</p>
+                            <p><strong>Technologies:</strong> LlamaIndex, Weaviate, OpenAI, Python, Document Processing</p>
+                            <br>
+                            <a href="https://github.com/saskinosie/CalibrateAI_Conference_2025">View Project & Notebook</a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2025</span></div>
+                    </div>
+
+                    <!-- Project 3: Weaviate Claude Skills -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Weaviate Claude Skills</h3>
+                            <br>
+                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/weaviate_claude_skills.png" width="300">
+                            <div class="subheading mb-3">Model Context Protocol integration for Claude.ai and Weaviate</div>
+                            <p>Open-source MCP (Model Context Protocol) server enabling Claude to manage vector database collections, ingest data, and perform RAG queries directly from the Claude.ai interface. Demonstrates async microservice architecture and seamless AI-database integration. This tool empowers Claude users to leverage powerful vector search capabilities without leaving their chat interface, making vector databases accessible to non-technical users.</p>
+                            <p><strong>Technologies:</strong> Model Context Protocol, Weaviate, Claude API, Python, Async Architecture</p>
+                            <br>
+                            <a href="https://github.com/saskinosie/weaviate-claude-skills">Code & Documentation</a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2025</span></div>
+                    </div>
+                    <!-- Project 4: Pandas DataFrame Agent -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Pandas DataFrame Agent</h3>
                             <br>
                             <img style="float: left; margin: 0px 0px 10px 10px;" src="assets/img/MLOps-World-Conference-Expo-Black.png" height="107" width="360">
-                            <div class="subheading mb-3">Ask your data questions with an AI Agent!</div>
-                            <p>Presentation at the ML OPS and GEN AI World Summit in October of 2025 in Austin, TX. In this demo, we will explore how to leverage LLMs (Large Language Models) to do Exploratory Data Analysis (EDA), data visualization and interpretation by incorporating Langchain's Pandas Dataframe Agent. EDA is a critical first step in data analysis for data science, academic research and even understanding your own data, personal or business. The process involves exploring the data from multiple angles to begin to see trends that will allow the elucidation of important insights. EDA can include looking at the features (generally the columns in your dataset), maximum and minimums, correlations, building charts and graphs for easy visualization and communication and generating takeaways form your data to inform decisions and take action. Here we will explore the dataset and look at some basic EDA, visualization and statistical techniques using AI.</p>
+                            <div class="subheading mb-3">Ask your data questions with an AI Agent</div>
+                            <p>Presented at ML OPS and Generative AI World Summit (2025). Enables non-technical users to perform exploratory data analysis through natural language. This AI-powered tool leverages LangChain's Pandas DataFrame Agent to allow anyone to analyze CSV data, create visualizations, and extract insights by simply asking questions. Demonstrates the power of making data science accessible through conversational AI interfaces.</p>
+                            <p><strong>Technologies:</strong> LangChain, Pandas, Streamlit, OpenAI</p>
                             <br>
-                            <a href="https://datafram-agent.streamlit.app/"> Try the app Here</a>
+                            <a href="https://datafram-agent.streamlit.app/">Try the Live App</a>
                             <br>
-                            <a href="https://github.com/saskinosie/pandas_dataframe_agent">Code Here</a>
+                            <a href="https://github.com/saskinosie/pandas_dataframe_agent">View Code</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2024</span></div>
+                    </div>
+
+                    <!-- Project 5: Vision-Enhanced Agentic RAG -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Vision-Enhanced Agentic RAG System for Technical Documentation</h3>
+                            <br>
+                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/vision_enhanced_agentic_rag_system.png" width="300">
+                            <div class="subheading mb-3">Multimodal AI for extracting data from text and visual content</div>
+                            <p>Engineered an innovative RAG pipeline leveraging Weaviate's Query Agent, multimodal AI (GPT-4 Vision), and vector embeddings to automatically extract and interpret technical data from both text and visual content (charts, maps, diagrams) within engineering documentation. Deployed async microservice architecture using Model Context Protocol integration with Claude Desktop, enabling seamless AI-assisted technical research workflows for mechanical engineering specifications.</p>
+                            <p><strong>Technologies:</strong> Weaviate Query Agent, GPT-4 Vision, Model Context Protocol, Claude Desktop, Vector Embeddings</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2025</span></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Speaking & Workshops -->
+            <section class="resume-section" id="speaking">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Speaking & Workshops</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Building Production-Ready Pydantic Agents with Vector Databases</h3>
+                            <div class="subheading mb-3">Data Science Dojo Agents Conference</div>
+                            <p>Hands-on workshop teaching developers how to build type-safe AI agents using Pydantic AI framework integrated with Weaviate vector database. Covered agent architecture, query optimization, and production best practices.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2025</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">NLP-Classification-of-Subreddit-Threads</h3>
-                            <br>
-                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/sleep.jpeg" width="250/">
-                            <div class="subheading mb-3">Classification of Attachment Parenting and Sleep Training Subreddits</div>
-                            <p>Webscraping (PRAW) used to pull data from Reddit Subreddits and create an NLP model to predict the origin of a Subreddit based on title text. Sleep Training and Attachment Parenting are the two mainstream methods of infant sleeping that new parents use to get their children to sleep. Those that subscribe to the attachment parenting philosophy generally sleep with their children and, therefore, have less need for the range of monitoring equipment from audio/video monitoring to vital sign monitoring. Whereas those in the Sleep Training camp begin sleeping apart from their children in their early weeks of their infants life and tend to purchase more monitoring equipment. Here an hyperparameter optimized stacking classification model consisting of TfidVectorized text from post titles in the Sleep Training and Attachment Parenting Subrredits modeled with Random Forest Classifier, MultinomialNB and AdaBoost with Decision  and Logistic Regression is created and evaluated for class prediction. The stacked model will categorize individuals as "sleep trainers" or "attachment parents" based on their post title patterns. The stacked model can be applied to other social media platforms to predict if individuals are a good target for baby monitor advertising. </p>
-                            <br>
-                            <a href="https://github.com/saskinosie/NLP-Classification-of-Subreddit-Threads/blob/main/project_3_presentation.pdf">Presentation Here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/NLP-Classification-of-Subreddit-Threads">Code Here</a>
+                            <h3 class="mb-0">End-to-End RAG System with LlamaIndex</h3>
+                            <div class="subheading mb-3">CalibrateAI Conference</div>
+                            <p>Demonstrated building production RAG pipeline for space medicine research, covering document ingestion, hierarchical parsing, vector storage, and query optimization.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2025</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Tensorflow-CNN-Classification-of-Leukemia-Cells</h3>
-                            <br>
-                            <img style="float: left; margin: 0px 0px 10px 10px;" src="assets/img/all_vs_hem_cells.png" height="400" width="300">
-                            <div class="subheading mb-3">Leukemia Classification with Tensorflow</div>
-                            <p>Acute lymphoblastic leukemia, ALL, is the most common type of childhood cancer and accounts for almost 25% of all pediatric cancers in the United States. Here a binary classification model is created to identify morphological characteristics of white blood cells to determine if they have normal morphology or morphology that is consistent with a leukemia blast (a cancerous white blood cell associated with ALL ). This model will help to reduce costs and time in diagnosing possible cases of ALL. Conventional diagnostics include a blood test that counts the number of white and red blood cells in a sample. Elevated white blood cell counts can suggest the possibility of ALL. Currently, if a sample indicates elevated white blood cell counts it is then subjected to flow cytometry and then the possibility of patient biopsy of bone marrow or lymph node tissue. Introducing a technique such as Quantitative Cell Imaging paired with computational modeling in tandem with routine health exams or blood tests that exhibit elevated white blood cell counts can reduce costs and time for diagnosis improving the chances of successful treatment.</p>
-                            <br>
-                            <a href="https://github.com/saskinosie/Tensorflow-CNN-Classification-of-Leukemia-Cells/blob/main/Project%204%20-%20Leukemia%20Classification.pdf">Presentation Here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/Tensorflow-CNN-Classification-of-Leukemia-Cells">Code Here</a>
+                            <h3 class="mb-0">Pandas DataFrame Agent for Data Analysis</h3>
+                            <div class="subheading mb-3">ML OPS and Generative AI World Summit</div>
+                            <p>Presented on making data science accessible through conversational AI, enabling non-technical users to perform exploratory data analysis using natural language.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2024</span></div>
                     </div>
-                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">E-commerce-Collaborative-Filtering-Based-Recommendation-System</h3>
-                            <br>
-                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/askinosie.jpeg" width="250/">
-                            <div class="subheading mb-3">A Collaborative Filtering Based Recommendation System For Askinosie Chocolate Retail and Wholesale Online Stores</div>
-                            <p>A collaborative filtering based recommendation system was built based on retail and wholesale sales data collected from 3 different shopping carts. Sales data from the last 13 years was collected from the current online shopping cart and backups from 2 previous shopping carts, cleaned, merged and analyzed to create a python based recommenadtion system for both the reatil and wholesale facing e-commerce sites. A recent study by barilliance suggests that product recommendations were responsible for up to 31 percent of ecommerce revenues for the companies participating in their research. This recommendation system acts as an efficient method of boosting both retail and wholesale online sales.</p>
-                            <br>
-                            <a href="https://github.com/saskinosie/recommender-system/blob/main/presentation.pdf">Presentation Here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/recommender-system">Code Here</a>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Open Source Contributions -->
+            <section class="resume-section" id="opensource">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Open Source Contributions</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Image-Recognition-Streamlit-App</h3>
+                            <h3 class="mb-0">Weaviate Ecosystem</h3>
+                            <div class="subheading mb-3">Active Contributor</div>
+                            <p>Contributing to the Weaviate ecosystem (27K+ stars on GitHub) through integration examples, documentation, workshop materials, and community education. Regular presenter at community Hack Nights and technical workshops.</p>
                             <br>
-                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/hot_weiner.jpg" height="400" width="400">
-                            <div class="subheading mb-3">A Convoluted Neural Network (CNN) Model for Image Recognition Deployed in Streamlit</div>
-                            <p>Image recognition refers to the ability of a model to accurately identify a target within an image. Image recognition is utilized in a number of different industries from identifying possible faults in a manufacturing line to determining if an individual possesses anatomical abnormalities in healthcare. Image recognition is also used in artificial Intelligence (AI) programs to identify individuals based on facial features or create new faces modeled after previously identified features. The applications of image recognition are vast and the cornerstone for many emerging technologies.  Here a Convoluted Neural Network is created to determine if an image contains or does not contain a hot dog. The CNN model is compared to a transfer learning model,  EfficientNetB0, which has been trained on more images than was contained in the Kaggle data set to create the CNN model.  Ultimately, the transfer model was used in the Streamlit deployment of the image recognition app. 
-                            <br>
-                            <p>Feel free to upload an image to the app and try and stump the model!!!</p>
-                            <br>
-                            <a href="https://saskinosie-image-recognition-streamlit-app-hotdog-ddxcvn.streamlit.app/">Try the app here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/Image-Recognition-Streamlit-App">Code Here</a>
+                            <a href="https://github.com/saskinosie">View GitHub Profile</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    
+                        <div class="flex-shrink-0"><span class="text-primary">2025</span></div>
                     </div>
                 </div>
             </section>
@@ -239,60 +293,51 @@
                     <h2 class="mb-5">experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <div class="flex-shrink-0"><span class="text-primary">August 2017-November 2022</span></div>
-                            <h3 class="mb-0">Professor/Science Domain Owner </h3>
+                            <h3 class="mb-0">Open Source Engineer & Lead Technical Trainer</h3>
+                            <div class="subheading mb-3">Weaviate</div>
+                            <li>
+                                Active contributor to Weaviate open-source repository (27K+ stars), developing production-ready examples, documentation, and integration patterns for RAG applications with LlamaIndex, LangChain, and custom agentic frameworks
+                            </li>
+                            <li>
+                                Designed and delivered "Building Production-Ready Pydantic Agents with Vector Databases" workshop at Data Science Dojo Agents Conference (2025). Created and published open-source Claude Skills framework on GitHub
+                            </li>
+                            <li>
+                                Lead Hack Nights and conference workshops in collaboration with LlamaIndex, Comet, CrewAI, FriendliAI, and dltHub, teaching developers to build instrumented agent chains with evaluation benchmarks and reproducible demos
+                            </li>
+                            <li>
+                                Develop comprehensive training materials and webinars on production vector database optimization including quantization, multitenancy, RBAC, and scaling strategies
+                            </li>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Lead AI Developer, Lead Data Scientist</h3>
+                            <div class="subheading mb-3">Portions Master</div>
+                            <li>
+                                Spearheaded the development and operationalization of pioneering AI models for food identification and volume estimation, transitioning project from third-party developers to in-house development, saving over $2 million
+                            </li>
+                            <li>
+                                Indexed and vectorized Cosmos DB data to enable a Retrieval-Augmented Generation (RAG) system within Azure Prompt Flow, leveraging an AI assistant for seamless data retrieval and enhanced query response accuracy
+                            </li>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2023 - February 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Analyst/Data Scientist/Professor</h3>
                             <div class="subheading mb-3">Western Governors University</div>
                             <li>
-                                
-                                Professor of Physics, Chemistry and Biology. Lead over 6,500 students through completion of my courses between 2017 and 2022.
+                                Created NLP model to classify Net Promoter Score (NPS) detractor open text responses on end of term survey identifying 5 critical areas of dissatisfaction leading to a 4X decrease in student drops
                             </li>
                             <li>
-                                
-                                Department lead for science staff and faculty. Consulted directors of each college to inform of student interventions needed to maximize retention and on time graduation.
+                                Developed semantic classification system using transformer-based topic modeling to categorize student dropout reasons from unstructured text data, enabling targeted retention interventions
                             </li>
                             <li>
-                                
-                                Utilized student data collected from COGNOS to improve student course completion rate by 10% from 2018-2019 by improving course material presentation.
+                                Analyzed 487,826 student-term records demonstrating call-heavy communication increased NPS promoter rates by 7.2%, informing revised institutional protocols
                             </li>
-                            <br>
-                            <br>
-                            <br>
-                            <div class="flex-shrink-0"><span class="text-primary">May 2008-Present</span></div>
-                            <h3 class="mb-0">Chief Science and Technology Officer   </h3>
-                            <div class="subheading mb-3">Askinosie Chocolate</div>
-                            <li>
-                                
-                                Analyze website metrics to advise on changes to be made to the website to optimize user experience and where to allocate resources to maximize online sales.
-                            </li>
-                            <li>
-                                
-                                Built platform bridge that allows real time integration of sales and customer data between company website, accounting software and CRM software.
-                            </li>
-                            <li>
-                                
-                                Migrated customer information and transaction data to and between CRM databases saving the company over $12,000 in data consulting costs.
-                            </li>
-                            <br>
-                            <br>
-                            <br>
-                            <div class="flex-shrink-0"><span class="text-primary">September 2012-December 2016</span></div>
-                            <h3 class="mb-0">Research Fellow   </h3>
-                            <div class="subheading mb-3">University of Missouri</div>
-                            <li>
-                                
-                                Collected, compiled and analyzed hundreds of thousands of images to describe photoreceptor desensitization methods in plants that had eluded researchers for 20 years.
-                            </li>
-                            <li>
-                                
-                                Worked with labs at University of Missouri to understand their research to raise funds to purchase mutually beneficial equipment and reagents necessary for my dissertation project.
-                            </li>
-                            <li>
-                                
-                                Created semi-automatic infrared imaging system for imaging photosensitive systems streamlining data collection saving hundreds of hours performing manual measurements.
-                            </li>
-                            </li> 
                         </div>
-                    </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - October 2023</span></div>
                     </div>
                 </div>
             </section>
@@ -303,18 +348,17 @@
                     <h2 class="mb-5">education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <div class="flex-shrink-0"><span class="text-primary">November 2022-March 2023</span></div>
+                            <h3 class="mb-0">Harvard Business School</h3>
+                            <div class="subheading mb-3">Leadership, Ethics and Corporate Accountability Pilot</div>
+                            <br>
+                            <br>
                             <h3 class="mb-0">General Assembly</h3>
                             <div class="subheading mb-3">Data Science Immersive</div>
                             <div>480+ hour immersive data science program</div>
-                        
-                            <div>portfolio Above</div>
                             <br>
                             <br>
-                            <div class="flex-grow-1">
-                                <div class="flex-shrink-0"><span class="text-primary">September 2012- December 2016</span></div>
-                                <h3 class="mb-0">University of Missouri </h3>
-                                <div class="subheading mb-3">Doctor of Philosophy with an emphasis in Cellular and Molecular Biology</div>
+                            <h3 class="mb-0">University of Missouri</h3>
+                            <div class="subheading mb-3">Ph.D. Quantitative Biology</div>
                                 <div>Thesis Project: The role blue light photoreceptor phototropin 1 relocation plays in phototropic signaling and how photoreceptors can improve solar technologies and crop yields.</div>
                                 <br>
                                 <div>Broader Impact: Phototropism results in efficient harnessing of solar energy and water acquisition in plants. Plants with enhanced phototropism exhibit greater overall fitness. Understanding the mechanism of phototropism will assist in engineering crops that are more drought resistant with higher biomass and greater food production.</div>
