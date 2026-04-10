@@ -46,12 +46,12 @@
                         <span class="text-primary">Askinosie</span>
                     </h1>
                     <div class="subheading mb-3">
-                        AI Engineer & Open Source Contributor
+                        AI/Agent Engineer | Context Engineering | Multi-Agent Orchestration
                     </div>
                     <div class="subheading mb-5">
                         <a href="mailto:name@email.com">scott@askinosie.com</a>
                     </div>
-                    <p class="lead mb-5">Research scientist and AI engineer specializing in machine learning and Gen AI solutions for multimodal data (video, audio, text). Practical experience developing and operationalizing ML models for content understanding, recommendation systems, and RAG pipelines at scale. Active open-source contributor to Weaviate with expertise in supervised, unsupervised, and deep learning methods. Former educator and researcher (Ph.D. Quantitative Biology) with proven ability to collaborate with cross-functional stakeholders, design innovative ML systems, and deliver scalable AI solutions from experimentation to production deployment. Deep Python expertise with modern ML tooling and evaluation frameworks including LLM-as-a-judge methodologies.</p>
+                    <p class="lead mb-5">AI engineer specializing in multi-agent orchestration, context window management, and production RAG systems. Deep hands-on experience designing agent task decomposition engines, multi-model routing strategies, and context window management at scale. Built and shipped agentic pipelines across OpenAI, Anthropic, and Google model families. Active conference speaker and open-source contributor with 12+ years of experience making complex technical topics accessible.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/scott-askinosie/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/saskinosie"><i class="fab fa-github"></i></a>
@@ -83,7 +83,11 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            AI Agent Development: Pydantic AI, CrewAI, autonomous agents, tool-calling frameworks, evaluation benchmarks
+                            AI Agent Development: Pydantic AI, CrewAI, autonomous agents, tool-calling frameworks, evaluation benchmarks, multi-agent orchestration, context window management, task decomposition engines, model routing
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Context Engineering: context window compaction, memory tiering (working/episodic/semantic), token budget allocation, dynamic window management across 8K-200K+ token models
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -161,6 +165,20 @@
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5">portfolio</h2>
+
+                    <!-- Project 0: From Retrieval to Orchestration -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">From Retrieval to Orchestration: Intent-Driven Agentic Context Engineering</h3>
+                            <br>
+                            <div class="subheading mb-3">Workshop delivered at Data Science Dojo Agentic AI Conference (2026)</div>
+                            <p>Covers building intent-driven agentic systems that move beyond basic RAG into full orchestration — task decomposition, multi-model routing, context window management, and agent memory design. Includes live architecture walkthroughs and production patterns for context engineering.</p>
+                            <p><strong>Technologies:</strong> Agentic AI, Context Engineering, Multi-Agent Orchestration, LLMs, Python</p>
+                            <br>
+                            <a href="https://github.com/saskinosie/DSD-Agentic-AI-Conference-Enhancing-Context-Engineering-Workshop">Workshop Materials & Code</a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2026</span></div>
+                    </div>
 
                     <!-- Project 1: Askinosie Chocolate Recommendation System -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -262,6 +280,22 @@
                     <h2 class="mb-5">Speaking & Workshops</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Enhancing Context Engineering with Agentic Integration into Vector Database Queries</h3>
+                            <div class="subheading mb-3">ODSC East, Boston</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2026</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">From Retrieval to Orchestration: Building Intent-Driven Agentic Context Engineering Systems</h3>
+                            <div class="subheading mb-3">Data Science Dojo Agentic AI Conference</div>
+                            <br>
+                            <a href="https://github.com/saskinosie/DSD-Agentic-AI-Conference-Enhancing-Context-Engineering-Workshop">Workshop Repository</a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2026</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">Building Production-Ready Pydantic Agents with Vector Databases</h3>
                             <div class="subheading mb-3">Data Science Dojo Agents Conference</div>
                             <p>Hands-on workshop teaching developers how to build type-safe AI agents using Pydantic AI framework integrated with Weaviate vector database. Covered agent architecture, query optimization, and production best practices.</p>
@@ -310,7 +344,26 @@
                     <h2 class="mb-5">experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Lead Machine Learning Engineer & Technical Architect</h3>
+                            <h3 class="mb-0">AI Engineer & Developer Advocate</h3>
+                            <div class="subheading mb-3">Contextual AI</div>
+                            <li>
+                                Architected multi-agent orchestration layer for OpenClaw Hack Day (AWS Builder Loft, SF): designed the task decomposition engine, led participants through building a custom agentic framework from scratch, then benchmarked it against OpenClaw across latency, accuracy, and cost
+                            </li>
+                            <li>
+                                Designed context engineering strategies for Contextual AI's Agent Composer platform including context injection patterns, token budget allocation, and retrieval-augmented agent memory for multi-hop query pipelines
+                            </li>
+                            <li>
+                                Built MCP server integration enabling plugin-based agent access to Contextual AI's platform across Claude Code and Codex
+                            </li>
+                            <li>
+                                Shipped production demos: SEC filing monitoring system and log analysis pipeline with multi-hop query support and human-approval gate workflows
+                            </li>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2025 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Lead Enablement Architect</h3>
                             <div class="subheading mb-3">Weaviate</div>
                             <li>
                                 Designed and evaluated multimodal content understanding systems leveraging GPT-4 Vision and vector embeddings to automatically extract and interpret technical metadata from text, diagrams, charts, and maps within engineering documentation, enabling AI-assisted content discovery workflows
@@ -325,7 +378,7 @@
                                 Collaborated with cross-functional product and engineering teams to design learning paths and documentation that reduced developer time-to-first-value by 40%, directly supporting feature launches and developer adoption
                             </li>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - October 2024</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -369,21 +422,6 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">education</h2>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Harvard Business School</h3>
-                            <div class="subheading mb-3">Leadership, Ethics and Corporate Accountability Pilot</div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">General Assembly</h3>
-                            <div class="subheading mb-3">Data Science Immersive</div>
-                            <div>480+ hour immersive data science program</div>
-                        </div>
-                    </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
